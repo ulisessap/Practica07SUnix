@@ -22,3 +22,8 @@ Y lo abrimos con nano
 ![image](https://github.com/user-attachments/assets/2548a5f6-9fd9-4f6b-b4a1-a3da7b4b6790)
 
 ![image](https://github.com/user-attachments/assets/f7e736e3-d0ae-49ea-b7d1-c902438bf7f9)
+
+![image](https://github.com/user-attachments/assets/f914e566-5e0a-4f25-b02e-16ff21a16733)
+
+![image](https://github.com/user-attachments/assets/db3609e0-5a4e-43bf-98cd-d4f2bd3ee271)
+
