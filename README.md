@@ -101,10 +101,6 @@ Abrimos el siguiente script
 ![image](https://github.com/user-attachments/assets/2f2d3605-0d37-4d30-821f-331bdd5b1db1)
 
 Damos permisos de ejecucion
-
-
-![image](https://github.com/user-attachments/assets/e383e8f7-c6de-4f4b-9b05-9ac26276634e)
-
 Ejecutamos el script para ver que funcione directamente
 
 ![image](https://github.com/user-attachments/assets/f8a9ac85-4a52-4ae5-ae12-221c35058a87)
@@ -147,6 +143,9 @@ Copiamos el archivo de configuración principal de Logwatch (logwatch.conf) al d
 
 ![image](https://github.com/user-attachments/assets/71aa5a3c-ccdd-4b09-9591-3ed66e7356c3)
 
+Abrimos el archivo logwatch.conf en nano para ajustar configuraciones, como el nivel de detalle del informe, el rango de tiempo y la dirección de correo a la cual se enviará el informe.
+
+![image](https://github.com/user-attachments/assets/198659f9-eea0-488e-bb89-8407291a5b0f)
 
 
 
