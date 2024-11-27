@@ -98,5 +98,18 @@ Abrimos el siguiente script
 ![image](https://github.com/user-attachments/assets/a51db53a-e114-4164-87e7-c4fe2c1a0fe5)
 
 
+![image](https://github.com/user-attachments/assets/2f2d3605-0d37-4d30-821f-331bdd5b1db1)
+
+Damos permisos de ejecucion
+
+
+![image](https://github.com/user-attachments/assets/e383e8f7-c6de-4f4b-9b05-9ac26276634e)
+
+Ejecutamos el script para ver que funcione directamente
+
+![image](https://github.com/user-attachments/assets/f8a9ac85-4a52-4ae5-ae12-221c35058a87)
+
+
+
 
 
