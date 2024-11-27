@@ -54,4 +54,24 @@ Reiniciamos el servicio
 Fail2Ban es útil para proteger servicios como SSH de ataques externos al bloquear las IPs que muestran patrones de actividad sospechosa. Esta configuración que has hecho monitorea y protege el servicio SSH de tu sistema y permite una administración flexible de las IPs bloqueadas, facilitando así la seguridad de tu sistema.
 
 # ClamaV
+ClamAV es un antivirus de código abierto diseñado para detectar virus, malware y otras amenazas en sistemas Linux. ClamAV también incluye herramientas para actualizar la base de datos de firmas de virus y configurar escaneos automáticos.
+
+Entonces lo instalamos 
+
+
+![image](https://github.com/user-attachments/assets/0e7967d2-6c1e-4791-b35d-b6e21cd3eec9)
+
+Reconfiguramos el paquete
+
+![image](https://github.com/user-attachments/assets/0cda9251-ff19-496e-aee4-c466d0854dc3)
+
+Damos ok a todo
+
+Verificamos el estado del servicio 
+
+![image](https://github.com/user-attachments/assets/e94975cf-a52c-476f-a517-e14482b54bd1)
+
+Activa el servicio clamav-freshclam para que se inicie automáticamente al arrancar el sistema.
+
+![image](https://github.com/user-attachments/assets/59ba7f89-c6eb-46e0-9d2f-6f1da47b0223)
 
