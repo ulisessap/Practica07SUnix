@@ -109,6 +109,37 @@ Ejecutamos el script para ver que funcione directamente
 
 ![image](https://github.com/user-attachments/assets/f8a9ac85-4a52-4ae5-ae12-221c35058a87)
 
+# Postfix y Logwatch 
+Postfix es un servidor de correo para enviar y recibir mensajes y Logwatch, una herramienta para generar y enviar informes de los registros del sistema. Con esta configuración, puedes recibir correos con reportes automáticos de actividad en el sistema, ayudando en la monitorización y gestión del servidor.
+
+Procedemos a la instalacion de estos tres paquetes
+
+- Mailutils: Un conjunto de herramientas de correo para enviar y leer correos desde la línea de comandos.
+
+- Postfix: Un servidor de correo que gestiona el envío y recepción de correos electrónicos.
+
+- Logwatch: Una herramienta que analiza los registros del sistema y genera informes resumidos o detallados sobre la actividad.
+
+![image](https://github.com/user-attachments/assets/1c588c32-4073-48f8-896e-6da5655879ee)
+
+Con el siguiente comando podemos reconfigurar postfix para ajustar opciones como el dominio, el tipo de instalación (servidor de Internet, satélite, etc.), y otros detalles de envío de correo.
+
+```
+sudo dpkg-reconfigure postfix
+```
+
+Y en el siguiente archivo podemos configurar los alias de correo 
+
+![image](https://github.com/user-attachments/assets/0d8eb66b-a5f7-4fe7-8235-0c51187ef60f)
+
+
+![image](https://github.com/user-attachments/assets/57dc1000-c2d4-4148-90bf-dd114ca49646)
+
+
+
+
+
+
 
 
 
