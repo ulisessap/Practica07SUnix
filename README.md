@@ -75,3 +75,28 @@ Activa el servicio clamav-freshclam para que se inicie automáticamente al arran
 
 ![image](https://github.com/user-attachments/assets/59ba7f89-c6eb-46e0-9d2f-6f1da47b0223)
 
+Iniciamos el servicio 
+
+![image](https://github.com/user-attachments/assets/ab340e9f-b1a0-4e5c-9f1a-903c3454dba9)
+
+Los siguientes comandos hacen lo siguiente
+```
+sudo freshclam
+```
+Ejecuta manualmente la actualización de la base de datos de virus de ClamAV usando freshclam, en caso de que el servicio no esté activo o para forzar una actualización inmediata.
+```
+sudo systemctl stop clamav-freshclam.service
+```
+Detiene el servicio clamav-freshclam como superusuario.
+```
+sudo systemctl start clamav-freshclam.service
+```
+Reinicia el servicio clamav-freshclam después de cualquier actualización o ajuste manual.
+
+Abrimos el siguiente script 
+
+![image](https://github.com/user-attachments/assets/a51db53a-e114-4164-87e7-c4fe2c1a0fe5)
+
+
+
+
