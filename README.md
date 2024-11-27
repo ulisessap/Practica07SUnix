@@ -27,3 +27,32 @@ Y lo abrimos con nano
 
 ![image](https://github.com/user-attachments/assets/db3609e0-5a4e-43bf-98cd-d4f2bd3ee271)
 
+Reiniciamos fail2ban y vemos su status
+
+![image](https://github.com/user-attachments/assets/bb3eaddf-905b-464b-bd06-20ee5744710c)
+
+Volvemos a iniciar el servicio y checamos su status nuevamente 
+
+![image](https://github.com/user-attachments/assets/9322393e-b96b-42d0-a1d7-003018f93127)
+
+Consultamos el estado del filtro de Fail2Ban para el servicio SSHD, mostrando estadísticas como IPs bloqueadas y tiempo de los bloqueos.
+
+
+![image](https://github.com/user-attachments/assets/58e89495-4b65-4f78-81da-ff9f46c03449)
+
+
+Con el siguiente comando desbloqueamos manualmente una dirección IP específica que había sido bloqueada para el servicio SSH.
+
+```
+sudo fail2ban-client set sshd unbanip [IP]
+```
+
+Reiniciamos el servicio
+
+
+![image](https://github.com/user-attachments/assets/f8677d1c-e2df-4e5a-a53e-f40c695f8abb)
+
+Fail2Ban es útil para proteger servicios como SSH de ataques externos al bloquear las IPs que muestran patrones de actividad sospechosa. Esta configuración que has hecho monitorea y protege el servicio SSH de tu sistema y permite una administración flexible de las IPs bloqueadas, facilitando así la seguridad de tu sistema.
+
+# ClamaV
+
