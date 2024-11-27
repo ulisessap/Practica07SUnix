@@ -135,6 +135,20 @@ Y en el siguiente archivo podemos configurar los alias de correo
 
 ![image](https://github.com/user-attachments/assets/57dc1000-c2d4-4148-90bf-dd114ca49646)
 
+Actualizamos la bd de alias
+
+![image](https://github.com/user-attachments/assets/6455abd1-f62a-489c-bd0c-3233cca35404)
+
+Creamos un directorio cache para logwatch
+
+![image](https://github.com/user-attachments/assets/48baee33-7197-4f56-9b67-0d1e1ace9282)
+
+Copiamos el archivo de configuración principal de Logwatch (logwatch.conf) al directorio de configuración en /etc. Aquí puedes personalizar los ajustes de los informes generados
+
+![image](https://github.com/user-attachments/assets/71aa5a3c-ccdd-4b09-9591-3ed66e7356c3)
+
+
+
 
 
 
