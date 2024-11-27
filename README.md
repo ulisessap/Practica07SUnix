@@ -40,10 +40,6 @@ Consultamos el estado del filtro de Fail2Ban para el servicio SSHD, mostrando es
 
 ![image](https://github.com/user-attachments/assets/d6bb9140-e095-4bfa-9208-6e8f4a99ee9f)
 
-
-![image](https://github.com/user-attachments/assets/58e89495-4b65-4f78-81da-ff9f46c03449)
-
-
 Con el siguiente comando desbloqueamos manualmente una dirección IP específica que había sido bloqueada para el servicio SSH.
 
 ```
