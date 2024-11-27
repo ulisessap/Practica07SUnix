@@ -147,6 +147,19 @@ Abrimos el archivo logwatch.conf en nano para ajustar configuraciones, como el n
 
 ![image](https://github.com/user-attachments/assets/198659f9-eea0-488e-bb89-8407291a5b0f)
 
+![image](https://github.com/user-attachments/assets/54823fad-43b0-4323-8cb9-5afaf1d1f6ae)
+
+Ejecutamos Logwatch manualmente para generar un informe de baja profundidad (--detail Low) sobre la actividad de hoy (--range today). Este comando imprime el informe en la terminal o lo envía por correo si está configurado.
+
+![image](https://github.com/user-attachments/assets/1177159b-9700-43a2-826b-8a7253a0c7c1)
+
+Con el siguiente comando podemos ver el contenido del buzon de root
+
+![image](https://github.com/user-attachments/assets/2c308517-f0d5-4368-adb5-53f845a6b791)
+
+
+
+
 
 
 
