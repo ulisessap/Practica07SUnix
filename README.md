@@ -157,6 +157,26 @@ Con el siguiente comando podemos ver el contenido del buzon de root
 
 ![image](https://github.com/user-attachments/assets/2c308517-f0d5-4368-adb5-53f845a6b791)
 
+Los scripts en /etc/cron.daily/ y /etc/cron.weekly/ permiten automatizar escaneos e informes para una administración y seguridad regulares del sistema.
+
+```
+sudo nano /etc/cron.daily/00logwatch
+```
+Abrimos el archivo de tareas diarias 00logwatch con nano. logwatch genera informes de actividad del sistema y registros importantes, y en este archivo puedes configurar o ajustar su frecuencia y contenido.
+
+
+![image](https://github.com/user-attachments/assets/aac2df53-0fb1-457c-a8a0-377d308a210d)
+
+![image](https://github.com/user-attachments/assets/727b2900-67f1-4928-9c19-24682fc3c86b)
+
+```
+sudo nano /etc/cron.weekly/00logwatch
+```
+Abrimos el archivo de tareas semanales 00logwatch para configurar escaneos e informes semanales del sistema.
+
+![image](https://github.com/user-attachments/assets/f84482e4-3f2b-49a4-86af-3f1be9fc7c97)
+
+Esta configuración permite que el sistema envíe informes automáticos sobre la actividad diaria usando Postfix y Logwatch. Logwatch monitorea los registros del sistema, mientras que Postfix maneja el envío de estos informes por correo. Al configurar el archivo de alias y los informes diarios, puedes recibir notificaciones automáticas de posibles problemas, errores o eventos relevantes del sistema.
 
 
 
