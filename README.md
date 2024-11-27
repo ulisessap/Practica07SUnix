@@ -38,6 +38,9 @@ Volvemos a iniciar el servicio y checamos su status nuevamente
 Consultamos el estado del filtro de Fail2Ban para el servicio SSHD, mostrando estadísticas como IPs bloqueadas y tiempo de los bloqueos.
 
 
+![image](https://github.com/user-attachments/assets/d6bb9140-e095-4bfa-9208-6e8f4a99ee9f)
+
+
 ![image](https://github.com/user-attachments/assets/58e89495-4b65-4f78-81da-ff9f46c03449)
 
 
